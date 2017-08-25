@@ -1,0 +1,555 @@
+Version 9.0 Build 132 02/25/2009 SJ Full Version
+2
+51
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+PBL1
+# storage
+db|PBL4.(1).cnf
+db|PBL4.(1).cnf
+# case_insensitive
+# source_file
+PBL1.bdf
+b8adb8c3ca11ac32b442e38a1d1e6c7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PBL1:inst36
+}
+# macro_sequence
+
+# end
+# entity
+Modular
+# storage
+db|PBL4.(2).cnf
+db|PBL4.(2).cnf
+# case_insensitive
+# source_file
+Modular.bdf
+59a2638def1ebf59050faf8c72e12e0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Modular:inst32
+}
+# macro_sequence
+
+# end
+# entity
+MemoriaMux
+# storage
+db|PBL4.(3).cnf
+db|PBL4.(3).cnf
+# case_insensitive
+# source_file
+MemoriaMux.bdf
+3c5a2f228f8f8876fa1687fe535d441e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MemoriaMux:inst22
+MemoriaMux:inst9
+}
+# macro_sequence
+
+# end
+# entity
+Mux120x8
+# storage
+db|PBL4.(4).cnf
+db|PBL4.(4).cnf
+# case_insensitive
+# source_file
+Mux120x8.bdf
+1345faeea6dc53f2db968427f831b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MemoriaMux:inst22|Mux120x8:inst17
+MemoriaMux:inst9|Mux120x8:inst17
+}
+# macro_sequence
+
+# end
+# entity
+Mux15x1
+# storage
+db|PBL4.(5).cnf
+db|PBL4.(5).cnf
+# case_insensitive
+# source_file
+Mux15x1.bdf
+54837e6111ffc5f495d27df75e0147a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MemoriaMux:inst22|Mux120x8:inst17|Mux15x1:inst7
+MemoriaMux:inst22|Mux120x8:inst17|Mux15x1:inst6
+MemoriaMux:inst22|Mux120x8:inst17|Mux15x1:inst5
+MemoriaMux:inst22|Mux120x8:inst17|Mux15x1:inst
+MemoriaMux:inst22|Mux120x8:inst17|Mux15x1:inst1
+MemoriaMux:inst22|Mux120x8:inst17|Mux15x1:inst2
+MemoriaMux:inst22|Mux120x8:inst17|Mux15x1:inst3
+MemoriaMux:inst22|Mux120x8:inst17|Mux15x1:inst4
+MemoriaMux:inst9|Mux120x8:inst17|Mux15x1:inst7
+MemoriaMux:inst9|Mux120x8:inst17|Mux15x1:inst6
+MemoriaMux:inst9|Mux120x8:inst17|Mux15x1:inst5
+MemoriaMux:inst9|Mux120x8:inst17|Mux15x1:inst
+MemoriaMux:inst9|Mux120x8:inst17|Mux15x1:inst1
+MemoriaMux:inst9|Mux120x8:inst17|Mux15x1:inst2
+MemoriaMux:inst9|Mux120x8:inst17|Mux15x1:inst3
+MemoriaMux:inst9|Mux120x8:inst17|Mux15x1:inst4
+}
+# macro_sequence
+
+# end
+# entity
+BatalhaNaval
+# storage
+db|PBL4.(6).cnf
+db|PBL4.(6).cnf
+# case_insensitive
+# source_file
+BatalhaNaval.bdf
+daa565883ddd84cceb9ab93a5cd8ce
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MemoriaMux:inst22|BatalhaNaval:inst9
+MemoriaMux:inst9|BatalhaNaval:inst9
+}
+# macro_sequence
+
+# end
+# entity
+Memoria
+# storage
+db|PBL4.(7).cnf
+db|PBL4.(7).cnf
+# case_insensitive
+# source_file
+Memoria.bdf
+1c9ddb1ce3694bd33ec55347b7f644
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MemoriaMux:inst22|BatalhaNaval:inst9|Memoria:inst1
+MemoriaMux:inst22|BatalhaNaval:inst9|Memoria:inst2
+MemoriaMux:inst22|BatalhaNaval:inst9|Memoria:inst3
+MemoriaMux:inst22|BatalhaNaval:inst9|Memoria:inst4
+MemoriaMux:inst22|BatalhaNaval:inst9|Memoria:inst5
+MemoriaMux:inst22|BatalhaNaval:inst9|Memoria:inst6
+MemoriaMux:inst22|BatalhaNaval:inst9|Memoria:inst7
+MemoriaMux:inst22|BatalhaNaval:inst9|Memoria:inst8
+MemoriaMux:inst22|BatalhaNaval:inst9|Memoria:inst9
+MemoriaMux:inst22|BatalhaNaval:inst9|Memoria:inst10
+MemoriaMux:inst22|BatalhaNaval:inst9|Memoria:inst11
+MemoriaMux:inst22|BatalhaNaval:inst9|Memoria:inst12
+MemoriaMux:inst22|BatalhaNaval:inst9|Memoria:inst13
+MemoriaMux:inst22|BatalhaNaval:inst9|Memoria:inst14
+MemoriaMux:inst22|BatalhaNaval:inst9|Memoria:inst15
+MemoriaMux:inst9|BatalhaNaval:inst9|Memoria:inst1
+MemoriaMux:inst9|BatalhaNaval:inst9|Memoria:inst2
+MemoriaMux:inst9|BatalhaNaval:inst9|Memoria:inst3
+MemoriaMux:inst9|BatalhaNaval:inst9|Memoria:inst4
+MemoriaMux:inst9|BatalhaNaval:inst9|Memoria:inst5
+MemoriaMux:inst9|BatalhaNaval:inst9|Memoria:inst6
+MemoriaMux:inst9|BatalhaNaval:inst9|Memoria:inst7
+MemoriaMux:inst9|BatalhaNaval:inst9|Memoria:inst8
+MemoriaMux:inst9|BatalhaNaval:inst9|Memoria:inst9
+MemoriaMux:inst9|BatalhaNaval:inst9|Memoria:inst10
+MemoriaMux:inst9|BatalhaNaval:inst9|Memoria:inst11
+MemoriaMux:inst9|BatalhaNaval:inst9|Memoria:inst12
+MemoriaMux:inst9|BatalhaNaval:inst9|Memoria:inst13
+MemoriaMux:inst9|BatalhaNaval:inst9|Memoria:inst14
+MemoriaMux:inst9|BatalhaNaval:inst9|Memoria:inst15
+}
+# macro_sequence
+
+# end
+# entity
+Comparador
+# storage
+db|PBL4.(8).cnf
+db|PBL4.(8).cnf
+# case_insensitive
+# source_file
+Comparador.bdf
+e7aff2472fc5e4fba66a23ff877c11
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Comparador:inst26
+}
+# macro_sequence
+
+# end
+# entity
+Paralelo
+# storage
+db|PBL4.(9).cnf
+db|PBL4.(9).cnf
+# case_insensitive
+# source_file
+Paralelo.bdf
+9d392bad2e2817bfdfc985c4ce6e4e3
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Paralelo:inst21
+Paralelo:inst24
+}
+# macro_sequence
+
+# end
+# entity
+Transicao
+# storage
+db|PBL4.(10).cnf
+db|PBL4.(10).cnf
+# case_insensitive
+# source_file
+Transicao.bdf
+1f7ea9a464cdcd91374b61dbb9c45a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Transicao:inst30
+}
+# macro_sequence
+
+# end
+# entity
+SerialPararelo
+# storage
+db|PBL4.(11).cnf
+db|PBL4.(11).cnf
+# case_insensitive
+# source_file
+SerialPararelo.bdf
+7419ff1e1f6a296359cc5c96432e30
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+SerialPararelo:inst2
+}
+# macro_sequence
+
+# end
+# entity
+Sincronizar
+# storage
+db|PBL4.(12).cnf
+db|PBL4.(12).cnf
+# case_insensitive
+# source_file
+Sincronizar.bdf
+f427a74c242dc088408ac8ac63ffc2
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Sincronizar:inst39
+}
+# macro_sequence
+
+# end
+# entity
+Contador10
+# storage
+db|PBL4.(13).cnf
+db|PBL4.(13).cnf
+# case_insensitive
+# source_file
+Contador10.bdf
+205afcd84a8514f28f91618e0629c0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Sincronizar:inst39|Contador10:inst36
+Sincronizar:inst39|Contador10:inst35
+FimJogo:inst1|Contador10:inst
+}
+# macro_sequence
+
+# end
+# entity
+Contador17
+# storage
+db|PBL4.(14).cnf
+db|PBL4.(14).cnf
+# case_insensitive
+# source_file
+Contador17.bdf
+24a3f4c67a5955c48193f07624f62c9e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Sincronizar:inst39|Contador17:inst31
+}
+# macro_sequence
+
+# end
+# entity
+Contador4bits
+# storage
+db|PBL4.(15).cnf
+db|PBL4.(15).cnf
+# case_insensitive
+# source_file
+Contador4bits.bdf
+f8ec7eac75a38ad39714d6d15dc61d5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Contador4bits:inst
+Contador4bits:inst8
+}
+# macro_sequence
+
+# end
+# entity
+AtrasoLimpar
+# storage
+db|PBL4.(16).cnf
+db|PBL4.(16).cnf
+# case_insensitive
+# source_file
+AtrasoLimpar.bdf
+d8e3ee33c786f65f6953bde88acfc458
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+AtrasoLimpar:inst17
+AtrasoLimpar:inst23
+}
+# macro_sequence
+
+# end
+# entity
+ContadorSerie
+# storage
+db|PBL4.(17).cnf
+db|PBL4.(17).cnf
+# case_insensitive
+# source_file
+ContadorSerie.bdf
+8ac09923b0f9f557f66dcb1889868e63
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ContadorSerie:inst7
+}
+# macro_sequence
+
+# end
+# entity
+FimJogo
+# storage
+db|PBL4.(18).cnf
+db|PBL4.(18).cnf
+# case_insensitive
+# source_file
+FimJogo.bdf
+fbcb90964760ecbfdfbfd2b5d1a66
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+FimJogo:inst1
+}
+# macro_sequence
+
+# end
+# entity
+Contador2
+# storage
+db|PBL4.(19).cnf
+db|PBL4.(19).cnf
+# case_insensitive
+# source_file
+Contador2.bdf
+495c9018693a8cf2309945ee617ab586
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+FimJogo:inst1|Contador2:inst4
+}
+# macro_sequence
+
+# end
+# entity
+DivisorFrequencia
+# storage
+db|PBL4.(20).cnf
+db|PBL4.(20).cnf
+# case_insensitive
+# source_file
+DivisorFrequencia.bdf
+31ca97c2e81b362ce33539916ff8be8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DivisorFrequencia:inst40
+}
+# macro_sequence
+
+# end
+# entity
+ContadorMux
+# storage
+db|PBL4.(21).cnf
+db|PBL4.(21).cnf
+# case_insensitive
+# source_file
+ContadorMux.bdf
+ca8fd886bd3479dc84bc898227ffdf38
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ContadorMux:inst20
+ContadorMux:inst25
+}
+# macro_sequence
+
+# end
+# entity
+Atraso
+# storage
+db|PBL4.(22).cnf
+db|PBL4.(22).cnf
+# case_insensitive
+# source_file
+Atraso.bdf
+816698f8f770c1437d0d6cc1c65764a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Atraso:inst18
+}
+# macro_sequence
+
+# end
+# entity
+PBL1-2
+# storage
+db|PBL4.(23).cnf
+db|PBL4.(23).cnf
+# case_insensitive
+# source_file
+PBL1-2.bdf
+c3b84cce63465438adddd18b2a1
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PBL1-2:inst41
+}
+# macro_sequence
+
+# end
+# entity
+PBL4
+# storage
+db|PBL4.(0).cnf
+db|PBL4.(0).cnf
+# case_insensitive
+# source_file
+PBL4.bdf
+4defc4ea97b8bb31059974bffad7491
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+
